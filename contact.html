@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+    <title>contact_information</title>
+    <style>
+        .container{
+            background-color: #66BFBF;
+            border-radius: 20px;
+            padding: 20px;
+            font-family: 'Montserrat', sans-serif;
+        }
+        h1{
+            text-align: center;
+        }
+        button{
+            text-align: center;
+            margin-top: 30px;
+            margin-left: 20%;
+            border-radius: 7px;
+            background-color: cyan;
+        }
+        button:hover{
+            background-color: rgb(160, 229, 229);
+
+        }
+    </style>
+    <body class="container">
+        <h1>Contact Information</h1>
+        <h4>Submit your information here:-</h4>
+
+        <form>
+            <p>Name: <input type="text" placeholder="name.."></p>
+            <p>Contact No: <input type="number" placeholder="mobile no.."></p>
+            <p>E-mail: <input type="email" placeholder="email...."></p>
+            <p>Massage: </p>
+            <textarea rows="4" cols="50" name="comment" form="usrform" placeholder="Enter your massage here..."></textarea>
+                <br>
+            <button>Submit</button>
+        </form>
+        <script>
+           let submit = document.querySelector('button');
+           submit.addEventListener('click', showMsg);
+
+           function showMsg(){
+               alert("Your information is submit I will contact you soon.😊")
+           }  
+        </script>
+    </body>
+</html>
