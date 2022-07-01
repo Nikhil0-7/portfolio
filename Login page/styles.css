@@ -78,6 +78,28 @@ color: black;
 background-color: white;
 }
 
+.signup_btn{
+    color: black;
+    background-color: rgb(113, 223, 231);;
+    width: 100px;
+ }
+    
+.signup_btn:hover{
+    color: black;
+    background-color: white;
+ }
+ .forgot_btn{
+    color: black;
+    background-color: rgb(113, 223, 231);;
+    width: 150px;
+ }
+    
+.forgot_btn:hover{
+    color: black;
+    background-color: white;
+ }
+
+
 .links{
 color: white;
 }
